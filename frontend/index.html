@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Wordle Cracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+
+        <!-- LEFT PANEL -->
+        <div class="left">
+            <div class="play-area">
+                <div id="instruction"><b>Take Your Guess</b></div>
+
+                <div id="grid"></div>
+
+                <div id="feedback-panel">
+                    <div class="fb green"></div>
+                    <div class="fb yellow"></div>
+                    <div class="fb grey"></div>
+                </div>
+            </div>
+
+            <div id="keyboard"></div>
+        </div>
+
+
+        <!-- RIGHT PANEL -->
+        <div class="right">
+            <h2 id="count">Remaining: —</h2>
+
+            <h3>Try This</h3>
+            <div id="answers"></div>
+
+            <h3>Possible Solutions</h3>
+            <div id="allowed"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
